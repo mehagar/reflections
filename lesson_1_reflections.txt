@@ -1,0 +1,24 @@
+The plus and minus signs next to the changed lines allowed me to quickly find the potential sources of error, and the fact that diff doesn't even show lines that are the same meant that I didn't get lost in those lines.
+
+If there was a change that broke the program, looking at the history of the files and their dates may reveal when a certain change caused it to break. Also, you can freely make changes and save without worrying that you might want to go back to a previous version and not be able to after something was deleted, for example.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+
+ - Commits can be organized and more easily searched for a specific change to a file, especially if the commit message is descriptive. The downside is that it requires effort on the part of the developer to write meaningful commit messages and commit at appropriate times.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+ - It is a design choice. Neither one is wrong or right, but the approach Git takes is more useful for source code, where multiple files can be seen as one unit, or project. But docs are google, such as spreadsheets, text documents, and presentations are often independent of any other files, so there is no need in those cases to track a bunch of files together.
+
+
+ - How can you use the commands git log and git diff to view the history of files? 
+
+ Using git log shows all commits in chronological order, so you can see the most recent changes, all the way back to an old change. Using git diff along with a certain pair of commits can reveal exactly what changed between those commits, and by setting the colors in the git config options you can visually distinguish between insertions and deletions.
+
+
+- How might using version control make you more confident to make changes that could break something? 
+
+- The breaking change could always be traced back using the git diff command and git log, in addition, small commits means less code to look through to find the actual bug location.
+
+
+- Now that you have your workspace set up, what do you want to try using Git for? I want to try using git on one of my android programming tutorial projects.

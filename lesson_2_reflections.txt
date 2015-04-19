@@ -1,0 +1,6 @@
+- What happens when you initialize a repository? Why do you need to do it?
+  A hidden .git directory is created, which stores the history of all files in the repository. Doing it is necessary to start tracking files.
+
+- How is the staging area different from the working directory and the respository? What value do you think it offers?
+
+  Only files in the staging area can be added to the repository. Files in the staging area are not currently tracked, while files in the repository are. The staging area lets logically related files be grouped together when adding new files, instead of having to add all new files.
