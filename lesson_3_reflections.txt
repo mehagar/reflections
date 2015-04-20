@@ -1,0 +1,3 @@
+When would you want to use a remote repository rather than keeping all your work local?
+  If there were multiple people working on my project at different geographical locations, having a way to version control our code through
+  the internet would be useful. And if I wanted a backup for my project, or wanted to work on my project from different computers.
