@@ -11,6 +11,9 @@
 
 - What are some situations when branches would be helpful in keeping your history organized? How would branches help? 
 
+- What is the result of merging two branches together? Why do we represent it in the diagram way we do?
+  
+  The result is one branch that has content from the two merged branches in it. Using a diagram makes it clear what is happening, and shows how the new branch absorbs commits from the two original branches.
  When working on a different branch than master, all commits would be related to the feature the branch was made for, and there will be less commits in the master branch, which would reduce the commits you would need to look through if you were looking for a change that was not related to that feature. By switching branches, you could more quickly find a certain commit for a feature.
 
 - How do the diagrams help you visualize the branch structure?
